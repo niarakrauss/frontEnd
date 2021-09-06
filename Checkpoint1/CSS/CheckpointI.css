@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Urbanist:wght@200;500&display=swap');
+
+
+body {
+    background-image: url("../CSS/imgs/passagens-aereas-foz-do-iguacu-capa2019-05.jpg");
+    background-size:cover;
+
+}
+
+header {
+    background-color: rgb(191, 239, 255, 0.5) ;
+    color: whitesmoke;
+    padding: 20px;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Urbanist", sans-serif;
+}
+
+.texto {
+    font-family: "Hina Mincho";
+    padding: 12px;
+    border: 1px solid whitesmoke;
+    background-color: rgb(191, 239, 255, 0.5);
+    border-radius: 10px;
+}
+
+.video {
+    position: relative;
+    left: 480px;
+    top:10px;
+}
+
+.curiosidades {
+    position: relative;
+    top: 10px;
+    font-family: "Hina Mincho";
+    text-align: center;
+}
+
+.icones {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    top: 10px;
+    font-family: "Urbanist";
+   
+}
+
+footer div a {
+    display: inline-block;
+    text-decoration: none;
+}
